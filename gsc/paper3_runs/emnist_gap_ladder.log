@@ -1,0 +1,25 @@
+[emnist] train (40000, 1152) n_cls 26 epochs 12 seed 0
+  0 definitive       val best=0.8196 last=0.8123
+  -sign_at_fold      val best=0.7231 last=0.7231
+  +var_norm_fold     val best=0.8346 last=0.8346
+  -e_bits            val best=0.7248 last=0.7248
+  -delta_bits        val best=0.8090 last=0.8089
+  -bh_severity       val best=0.8009 last=0.7964
+  +perceptron_gate   val best=0.6315 last=0.6315
+  lstsq_mse_head     val best=0.8745 last=0.8745
+  fold_every=512     val best=0.8316 last=0.8316
+  fold_every=2048    val best=0.8366 last=0.8366
+  ADAM reference     val best=0.8559 last=0.8555
+
+=== gap attribution (each toggle ALONE vs definitive; Δ = effect of that change) ===
+  0 definitive       best=0.8196  Δ_vs_definitive=+0.0000  (baseline)
+  -sign_at_fold      best=0.7231  Δ_vs_definitive=-0.0965
+  +var_norm_fold     best=0.8346  Δ_vs_definitive=+0.0150
+  -e_bits            best=0.7248  Δ_vs_definitive=-0.0949
+  -delta_bits        best=0.8090  Δ_vs_definitive=-0.0106
+  -bh_severity       best=0.8009  Δ_vs_definitive=-0.0187
+  +perceptron_gate   best=0.6315  Δ_vs_definitive=-0.1881
+  lstsq_mse_head     best=0.8745  Δ_vs_definitive=+0.0549
+  fold_every=512     best=0.8316  Δ_vs_definitive=+0.0120
+  fold_every=2048    best=0.8366  Δ_vs_definitive=+0.0170
+  ADAM               best=0.8559  gap_vs_definitive=+0.0362

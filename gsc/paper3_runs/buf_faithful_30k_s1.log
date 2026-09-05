@@ -1,0 +1,24 @@
+[gsc-temporal] train=(30000, 200, 20) eval=(4000, 200, 20) TRAIN=jug READOUT=leaky dev=cuda
+[pcn ep 0] train=0.5756 val=0.5003 moves/ep~17611 fold=sign
+[pcn ep 1] train=0.6674 val=0.6090 moves/ep~11310 fold=sign
+[pcn ep 2] train=0.7039 val=0.6513 moves/ep~9517 fold=sign
+[pcn ep 3] train=0.7362 val=0.6825 moves/ep~8687 fold=sign
+[pcn ep 4] train=0.7374 val=0.6890 moves/ep~7995 fold=sign
+[pcn ep 5] train=0.7618 val=0.7155 moves/ep~7643 fold=sign
+[pcn ep 6] train=0.7586 val=0.7065 moves/ep~7313 fold=sign
+[pcn ep 7] train=0.7712 val=0.7150 moves/ep~6932 fold=sign
+[pcn ep 8] train=0.7822 val=0.7195 moves/ep~6855 fold=sign
+[pcn ep 9] train=0.7848 val=0.7395 moves/ep~6504 fold=sign
+[pcn ep10] train=0.7941 val=0.7453 moves/ep~6271 fold=sign
+[pcn ep11] train=0.8032 val=0.7493 moves/ep~6180 fold=sign
+[pcn ep12] train=0.8016 val=0.7175 moves/ep~6000 fold=sign
+[pcn ep13] train=0.8087 val=0.7315 moves/ep~5853 fold=sign
+[pcn ep14] train=0.8149 val=0.7803 moves/ep~5779 fold=sign
+[pcn ep15] train=0.8186 val=0.7360 moves/ep~5520 fold=sign
+[pcn ep16] train=0.8147 val=0.7595 moves/ep~5481 fold=sign
+[pcn ep17] train=0.8317 val=0.7758 moves/ep~5373 fold=sign
+[pcn ep18] train=0.8370 val=0.7653 moves/ep~5320 fold=sign
+[pcn ep19] train=0.8400 val=0.7755 moves/ep~5162 fold=sign
+
+=== PCN JUG (forwards-only) on SNN forward, readout=leaky ===
+  fold=sign per_t=True influence_n=0 error_carry_n=0 pl_buffer_n=8 delta_jug=False fold_mult=1  best val=0.7803
