@@ -7,6 +7,7 @@ Code, results, and a bit-faithful RTL implementation for **Part III** of this st
 (spiking) extension of the forwards-only PCN chip. The paper itself is in [`paper/`](paper/).
 
 Part 1: Basic cell design in analog hardware: https://github.com/dobneyresearch/PredictiveCodingNetworks_AnalogVLSIdesign
+
 Part 2: Design with supervised learning at close to backprop level in analog hardware - https://github.com/dobneyresearch/PCNchip_with_leakyjug_learning
 
 > **All results are pre-silicon.** The evidence here is Python behavioural simulation and a
