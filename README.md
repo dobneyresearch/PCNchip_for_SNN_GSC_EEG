@@ -6,6 +6,9 @@ networks.**
 Code, results, and a bit-faithful RTL implementation for **Part III** of this study — the temporal
 (spiking) extension of the forwards-only PCN chip. The paper itself is in [`paper/`](paper/).
 
+Part 1: Basic cell design in analog hardware: https://github.com/dobneyresearch/PredictiveCodingNetworks_AnalogVLSIdesign
+Part 2: Design with supervised learning at close to backprop level in analog hardware - https://github.com/dobneyresearch/PCNchip_with_leakyjug_learning
+
 > **All results are pre-silicon.** The evidence here is Python behavioural simulation and a
 > bit-faithful RTL implementation verified bit-exact against fixed-point reference models. Nothing
 > has been fabricated.
@@ -13,6 +16,8 @@ Code, results, and a bit-faithful RTL implementation for **Part III** of this st
 ---
 
 ## What this is
+
+A neuromorphic chip design that is forwards-only (data paths and signals go forwards), robust, asynchronous and generalizable to multiple situations without parameter finessing.
 
 A single reusable primitive — a **leaky accumulator**, `x ← λx + u`, feeding a threshold or a bounded
 graded write — assigns temporal credit **forwards-only**: no backward pass, no global unrolled
